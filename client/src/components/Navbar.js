@@ -1,14 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import "./style.module.css"
+import icon from "./images/icon.png"
 import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary style">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary style pt-3 pb-3 pl-4 pr-5 sticky-top">
                 <div className="container-fluid" >
+                    <img src={icon} alt="icon"  height="48px" width="48px" style={{marginRight:"3px"}}/>
                     <Link className="navbar-brand" to="/">Application</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
