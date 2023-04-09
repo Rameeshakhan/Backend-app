@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import register from "./images/register.jpg"
 import name from "./images/name.png"
 import email from "./images/gmail.png"
@@ -43,6 +44,7 @@ const Register = () => {
         </div>
         <div className='right-container'>
           <img className="image" src={register} alt="register" />
+          <Link className="nav-link active" to="/login"><p>Already registered ? Login here</p></Link>
         </div>
       </div>
       
