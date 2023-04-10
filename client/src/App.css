@@ -199,3 +199,23 @@ color: rgb(83, 155, 83);
 }
 
 
+/* home ends here */
+
+/* about starts here */
+
+.about{
+  background-color: rgb(229, 229, 229);
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 7px ;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about h1{
+  margin: auto;
+  text-align: center;
+ 
+}
+
+
